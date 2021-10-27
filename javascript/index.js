@@ -10,6 +10,9 @@ function criarLista() {
     if(inserirNome.value === ""){
         alert("Você deve inserir um nome");
     }
+    else if(inserirNome.value.length > 13){
+        alert("O nome deve ser menor que 13 caracteres."); 
+    }
     else{
     if (cont === 7) {
         alert("A lista está cheia!");
